@@ -7,7 +7,7 @@ func main() {
 	fmt.Printf("The minimum is: %d\n", x)
 	slice := []int{7, 9, 3, 5, 1}
 	x = Min(slice...)
-	fmt.Printf("The minimum in the slice is: %d", x)
+	fmt.Printf("The minimum in the slice is: %d\n", x)
 }
 
 func Min(s ...int) int {
