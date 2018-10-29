@@ -21,8 +21,10 @@ func main() {
 	outputWriter := bufio.NewWriter(outputFile)
 	outputString := "hello world!\n"
 
+	// 
 	for i := 0; i < 10; i++ {
 		outputWriter.WriteString(outputString)
+		
 	}
 	outputWriter.Flush()
 }
